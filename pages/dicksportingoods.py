@@ -9,7 +9,5 @@ from .base_element import BaseElement
 from .base_page import BasePage
 
 
-class DSPPage(object):
-    def __init__(self):
-        self.driver_version = self.getDriver()
-        self.url = "https://www.dickssportinggoods.com/"
+class DSPPage(BasePage):
+    url = "https://www.dickssportinggoods.com/"

@@ -4,8 +4,8 @@ Base Element Page
 Author: Ohad Katz
 """
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.Wait import WebDriverWait
-from selenium.webdriver.chrome.options import options
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.chrome.options import Options
 
 
 class BaseElement(object):

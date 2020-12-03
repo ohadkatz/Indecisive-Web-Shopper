@@ -8,5 +8,6 @@ from .base_element import BaseElement
 from .base_page import BasePage
 
 
-class AmazonPage(object):
-    url = "https://www.amazon.com/"
+class AmazonPage(BasePage):
+    url = "https://www.amazon.com"
+

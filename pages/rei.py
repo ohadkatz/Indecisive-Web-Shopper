@@ -10,7 +10,6 @@ from .base_element import BaseElement
 from .base_page import BasePage
 
 
-class REIPage(object):
-    def __init__(self):
-        self.driver_version = self.getDriver()
-        self.url = "https://www.rei.com/"
+class REIPage(BasePage):
+    url = "https://www.rei.com"
+
